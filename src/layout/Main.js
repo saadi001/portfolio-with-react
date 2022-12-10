@@ -1,9 +1,10 @@
 import React from 'react';
+import Home from '../pages/Home/Home';
 
 const Main = () => {
      return (
           <div>
-               this is main layout
+               <Home></Home>
           </div>
      );
 };
