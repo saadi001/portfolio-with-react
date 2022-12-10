@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import LandingBanner from '../LandingBanner/LandingBanner';
 import Navbar2 from '../Navbar2/Navbar2';
 
@@ -11,6 +12,7 @@ const Home = () => {
                               <LandingBanner></LandingBanner>                         
                     </div>
                </div>
+               <About></About>
           </div>
      );
 };
