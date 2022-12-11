@@ -31,8 +31,8 @@ import netlify from '../../assset/icons/icons8-netlify-a-cloud-computing-company
 const About = () => {
      return (
           <div id='about' className='bg-[#192734] pb-12'>
-               <h4 className='text-3xl text-center text-slate-300 py-10 uppercase'>About</h4>
-               <div className='max-w-3xl md:mx-auto bg-[#22303C] relative rounded text-center mt-20 mx-3'>
+               <h4 className='text-3xl text-center text-slate-300 py-10 uppercase font-semibold'>About</h4>
+               <div className='max-w-3xl md:mx-auto bg-[#22303C] relative rounded-md text-center mt-20 mx-3'>
                     <div className="avatar ">
                          <div className="w-32 rounded">
                               <img className='absolute rounded top-[-50%]' src={profile} alt="" />
