@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
      const menuItems = <>
-          <li><a className=''>Home</a></li>          
+          <li><a href='#home' className=''>Home</a></li>          
           <li><a href='#about'>About</a></li>
-          <li><a className='mr-3'>Projects</a></li>
+          <li><a href='#project' className='mr-3'>Projects</a></li>
           {/* <li><a>Contact</a></li> */}
-          <li><p className='bg-teal-400 text-slate-600'>Contact Me</p></li>
+          <li><a href='#contact' className='bg-teal-400 text-slate-600'>Contact Me</a></li>
           
      </>
      return (
           <div>
-              <div className="navbar">
+              <div id='home' className="navbar">
                     <div className="navbar-start">
                          <div className="dropdown">
                               <label tabIndex={0} className="btn btn-ghost lg:hidden">

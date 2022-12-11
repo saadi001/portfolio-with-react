@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
      return (
           <div>
-               <section className="bg-[#15202B]">
+               <section id='contact' className="bg-[#15202B]">
                     <div className="container px-6 py-12 mx-auto">
                          <h3 className='text-slate-300 text-3xl uppercase text-center font-semibold hidden md:block'>Contact</h3>
                          <div className="lg:flex lg:items-center lg:-mx-6">
@@ -53,12 +53,12 @@ const Contact = () => {
 
                                              <div className="flex-1 mt-6">
                                                   {/* <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label> */}
-                                                  <input type="email" placeholder="Email Adress" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-teal-400 dark:focus:border-blue-400 focus:ring-teal-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                                  <input type="email" placeholder="Email Adress" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-gray-900 border border-none rounded dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-teal-400 dark:focus:border-blue-400 focus:ring-teal-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                                              </div>
 
                                              <div className="w-full mt-6">
                                                   {/* <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label> */}
-                                                  <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-teal-400 dark:focus:border-blue-400 focus:ring-teal-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+                                                  <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-gray-900 border-none rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-teal-400 dark:focus:border-blue-400 focus:ring-teal-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                                              </div>
 
                                              <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50 uppercase">
@@ -69,7 +69,7 @@ const Contact = () => {
                               </div>
                          </div>
                     </div>
-                    <div className='container mx-auto h-[1px] border-b-[1px] border-slate-400'>
+                    <div className='container md:mx-auto h-[1px] border-b-[1px] border-slate-400 mx-4 '>
 
                     </div>
                     {/* footer  */}
