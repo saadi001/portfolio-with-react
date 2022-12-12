@@ -1,0 +1,38 @@
+[
+     {
+          "id": 1,
+          "category": "fullstack",
+          "image": "http",
+          "name": "sellDom",
+          "short-description": "A used pc parts selling website",
+          "details" : [
+               {"option":"Here in home page user will see category wise product."},
+               {"option": "To see product details user have to logged in and He can be seller/buyer in sign up page."},
+               {"option": "A buyer will only see orders, seller could be add product and only admin will see all buyers and sellers."}
+          ]
+     },
+     {
+          "id": 2,
+          "category": "fullstack",
+          "image": "http",
+          "name": "i-sports photography",
+          "short-description": "A photography service website",
+          "details" : [
+               {"option":"This is a photography service website that offers different kind photography of sports."},
+               {"option": "Here user can give review but before review they have to log in."},
+               {"option": "Admin can add a new service, user can review and every can see that reviews."}
+          ]
+     },
+     {
+          "id": 3,
+          "category": "fullstack",
+          "image": "http",
+          "name": "Course Arena",
+          "short-description": "- A course selling website",
+          "details" : [
+               {"option":"In home page there only a banner but in navbar there will course route."},
+               {"option": "In course router there will be different categories course and user will see details."},
+               {"option": "A In course details there will option to buy course but with login user couldn’t be able buy course;"}
+          ]
+     }
+]
