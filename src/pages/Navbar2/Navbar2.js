@@ -29,7 +29,7 @@ const Navbar2 = () => {
                     <div className="navbar-end hidden lg:flex">
                          <ul className="menu menu-horizontal px-1 text-slate-300">
                               {menuItems}
-                             
+                         
                          </ul>
                     </div>
                     

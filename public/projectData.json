@@ -2,7 +2,7 @@
      {
           "id": 1,
           "category": "fullstack",
-          "image": "http",
+          "image": "https://i.ibb.co/wMmz3dT/Screenshot-35.png",
           "name": "sellDom",
           "short-description": "A used pc parts selling website",
           "details" : [
@@ -14,7 +14,7 @@
      {
           "id": 2,
           "category": "fullstack",
-          "image": "http",
+          "image": "https://i.ibb.co/F5FfvZt/Screenshot-36.png",
           "name": "i-sports photography",
           "short-description": "A photography service website",
           "details" : [
@@ -26,7 +26,7 @@
      {
           "id": 3,
           "category": "fullstack",
-          "image": "http",
+          "image": "https://i.ibb.co/Wkk3pjY/Screenshot-37.png",
           "name": "Course Arena",
           "short-description": "- A course selling website",
           "details" : [
