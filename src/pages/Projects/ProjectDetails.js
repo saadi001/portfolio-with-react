@@ -1,14 +1,19 @@
 
-import { useLoaderData } from 'react-router-dom';
+import { Navigate, useLoaderData } from 'react-router-dom';
 import TechnologyDetail from './TechnologyDetail';
 import browser from '../../assset/icons/globe-svgrepo-com.svg'
 import github from '../../assset/icons/icons8-github (1).svg'
 
 const ProjectDetails = () => {
+     // const navigate = Navigate();
 
      const project = useLoaderData();
      const { name, image, details, shortDescription, technology, liveLink, clientSide, serverSide } = project;
      console.log(project)
+
+     const back = () =>{
+          // navigate('/')
+     }
      return (
           <div>
                <div className='bg-[#15202B] min-h-screen'>
@@ -43,9 +48,9 @@ const ProjectDetails = () => {
                                    }
                               </div>
                          </div>
-                         <div>
+                         {/* <div onClick={back} className='text-slate-300' >
                               back
-                         </div>
+                         </div> */}
                     </div>
 
                </div>
