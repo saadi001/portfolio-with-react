@@ -1,18 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import {useLoaderData} from 'react-router-dom';
+import Navbar2 from '../Navbar2/Navbar2';
 
 const ProjectDetails = () => {
-     const [projectData, setProjectData] = useState();
-     const data = useLoaderData();
-     console.log(data)
-
-     // useEffect(()=>{
-     //      fetch('projectData.json/')
-     // },[])
-     // console.log(data)
+    
+     const project = useLoaderData();
+     const {name,image,} = project;
+     console.log(name )
      return (
           <div>
-               this is project details page
+               <div className='bg-[#15202B] min-h-screen'>
+                    <div className='w-full container mx-auto'>                         
+                              <Navbar2></Navbar2>
+                              <div className='flex'>
+                                   <div><img src={image} alt="" /></div>
+                                   <div>{name}</div>
+                              </div>
+                    </div>
+               </div>
           </div>
      );
 };

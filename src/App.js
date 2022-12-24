@@ -12,9 +12,7 @@ function App() {
     {
       path: '/project/:projectId',
       element: <ProjectDetails></ProjectDetails>,
-      loader: async({params})=>{
-        return fetch(`projectData.json/${params.projectId}`)
-      }
+      loader: ({params})=> fetch(`https://portfolio-server-gray.vercel.app/project/${params.projectId}`)
       
     },
     {

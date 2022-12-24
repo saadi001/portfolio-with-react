@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
      const menuItems = <>
-          <li><a href='#home' className=''>Home</a></li>          
+          <li><Link to={'/'} className=''>Home</Link></li>          
           <li><a href='#about'>About</a></li>
           <li><a href='#project' className='mr-3'>Projects</a></li>
           {/* <li><a>Contact</a></li> */}
@@ -23,7 +23,7 @@ const Navbar2 = () => {
                                    
                               </ul>
                          </div>
-                         <Link href='/' className="normal-case text-xs text-slate-200 px-1">sheikh <br /> <span className='text-2xl leading-3 text-teal-200'>saadi</span></Link>
+                         <Link to={'/'} className="normal-case text-xs text-slate-200 px-1">sheikh <br /> <span className='text-2xl leading-3 text-teal-200'>saadi</span></Link>
                     </div>
                     {/* large device  */}
                     <div className="navbar-end hidden lg:flex">

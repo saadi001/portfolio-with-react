@@ -11,7 +11,7 @@ const Projects = () => {
      }
 
      useEffect(() => {
-          fetch('projectData.json')
+          fetch('https://portfolio-server-gray.vercel.app/projects')
                .then(res => res.json())
                .then(data => setProjects(data))
      }, [])
@@ -29,14 +29,14 @@ const Projects = () => {
                          </div>
                          <div className='content-tabs mt-10 flex-grow text-white'>
                               <div className={toggleState === 1 ? 'block pb-14' : 'hidden'}>
-                                   <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                                   <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-5'>
                                         {
                                              projects.map(project => <div key={project.id} className='bg-[#1c2a39] rounded'>
                                                   <div className=''>
                                                        <img src={project.image} alt="" />
                                                   </div>
                                                   <div className='flex justify-between items-center px-3 py-2'>
-                                                       <p className=' text-slate-300 text-xl'>{project.name}</p>
+                                                       <p className=' text-slate-300 '>{project.name}</p>
                                                        <Link to={`project/${project.id}`}><button className='cursor-pointer bg-teal-500 px-4 py-1 rounded'>Details</button></Link>
                                                   </div>
                                              </div>)
@@ -44,15 +44,15 @@ const Projects = () => {
                                    </div>
                               </div>
                               <div className={toggleState === 2 ? 'block text-center py-5' : 'hidden'}>Comming soon !!</div>
-                              <div className={toggleState === 3 ? 'block pb-14' : 'hidden'}>
-                              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                              <div className={toggleState === 3 ? 'block pb-14 ' : 'hidden'}>
+                              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-5'>
                                         {
                                              projects.map(project => <div key={project.id} className='bg-[#1c2a39] rounded'>
                                                   <div className=''>
                                                        <img src={project.image} alt="" />
                                                   </div>
                                                   <div className='flex justify-between items-center px-3 py-2'>
-                                                       <p className=' text-slate-300 text-xl'>{project.name}</p>
+                                                       <p className=' text-slate-300 '>{project.name}</p>
                                                        <Link to={`project/${project.id}`}><button className='cursor-pointer bg-teal-500 px-4 py-1 rounded'>Details</button></Link>
                                                   </div>
                                              </div>)
