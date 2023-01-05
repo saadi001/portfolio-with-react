@@ -41,14 +41,14 @@ const About = () => {
                     <div className='px-4 pb-4 md:px-10 mt-[-20px]'>
                          <p className='text-start text-slate-300 font-serif'>Hi I am sheikh saadi. A Front-End developer from Bangladesh. I love coding, doing creative works, solving problem, building projects. I also love to spend my leisure time by exploring new technology and reading books . I strongly believe, there's no limit of learning!</p>
                          <div className='text-start text-slate-300 mt-3'>
-                              <p><span className='text-slate-400'>Email:</span> sheikhsadi1620@gmail.com</p>
-                              <p><span className='text-slate-400'>Phone:</span> +8801836530309</p>
-                              <p><span className='text-slate-400'>Adress:</span> Ashulia, Dhaka, Bangladesh</p>
+                              <p className='text-slate-400'><span className='text-slate-100'>Email:</span> sheikhsadi1620@gmail.com</p>
+                              <p className='text-slate-400'><span className='text-slate-100'>Phone:</span> +8801836530309</p>
+                              <p className='text-slate-400'><span className='text-slate-100'>Adress:</span> Ashulia, Dhaka, Bangladesh</p>
                          </div>
                          <div className='flex gap-8 py-5 text-slate-500 justify-center'>
-                              <a href="https://github.com/saadi001"><img  src={github} alt="" /></a>
-                              <a href="https://www.facebook.com/sheikhsadishuvo.1620/"><img src={facebook} alt="" /></a>
-                              <a href="https://www.linkedin.com/in/sekh-saadi-itm/"><img src={linkedIn} alt="" /></a>
+                              <a href="https://github.com/saadi001" target={'_blank'}><img  src={github} alt="" /></a>
+                              <a href="https://www.linkedin.com/in/sekh-saadi-itm/" target={'_blank'}><img src={linkedIn} alt="" /></a>
+                              <a href="https://www.facebook.com/sheikhsadishuvo.1620/" target={'_blank'}><img src={facebook} alt="" /></a>
                          </div>
                          <div className='text-start'>
                               <p className='text-start text-slate-200 uppercase text-xl'>skills</p>

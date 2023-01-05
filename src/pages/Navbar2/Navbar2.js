@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../../component/Button';
 
 const Navbar2 = () => {
      const menuItems = <>
@@ -7,11 +8,11 @@ const Navbar2 = () => {
           <li><a href='#about'>About</a></li>
           <li><a href='#project' className='mr-3'>Projects</a></li>
           {/* <li><a>Contact</a></li> */}
-          <li><a href='#contact' className='bg-teal-400 text-slate-600'>Contact Me</a></li>
+          <li><a href='#contact' className=''><Button value={"Contact"}></Button></a></li>
           
      </>
      return (
-          <div>
+          <div className='container'>
               <div id='home' className="navbar">
                     <div className="navbar-start">
                          <div className="dropdown">
